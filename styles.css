@@ -38,6 +38,7 @@ table {
     background-color: rgb(52, 57, 109);
     border: .3rem solid #000000;
     width: 140rem;
+    box-shadow: 0 .8rem 1rem rgb(43, 43, 43);
 }
 
 tr, th {
@@ -69,7 +70,7 @@ td {
 .container {
     width: 100vw;
     height: 100%;
-    background-color: rgb(216, 220, 255);
+    background-color: #535c68;
     padding-bottom: 2.5rem;
 }
 
@@ -90,6 +91,7 @@ td {
     color: aliceblue;
     background-color: rgb(30, 32, 68);
     border: .2rem solid #000000;
+    box-shadow: 0 .8rem 1rem rgb(43, 43, 43);
 }
 
 span.code {
