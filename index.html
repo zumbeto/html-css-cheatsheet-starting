@@ -41,6 +41,31 @@
                 <td>Selects all <span class="code">&lt;p&gt;</span> elements with <span class="code">class="description"</span></td>
             </tr>
             <tr>
+                <td><span class="code">element, element</span></td>
+                <td><span class="code">div, p</span></td>
+                <td>Selects all <span class="code">&lt;p&gt;</span> elements and all <span class="code">&lt;div&gt;</span> elements</td>
+            </tr>
+            <tr>
+                <td><span class="code">element element</span></td>
+                <td><span class="code">div p</span></td>
+                <td>Selects all <span class="code">&lt;p&gt;</span> elements inside <span class="code">&lt;div&gt;</span> elements</td>
+            </tr>
+            <tr>
+                <td><span class="code">element+element</span></td>
+                <td><span class="code">div + p</span></td>
+                <td>Selects the first <span class="code">&lt;p&gt;</span> element that is placed immediately after <span class="code">&lt;div&gt;</span> element</td>
+            </tr>
+            <tr>
+                <td><span class="code">element>element</span></td>
+                <td><span class="code">div > p</span></td>
+                <td>Selects all <span class="code">&lt;p&gt;</span> elements where the parent is a <span class="code">&lt;div&gt;</span> element</td>
+            </tr>
+            <tr>
+                <td><span class="code">element1~element2</span></td>
+                <td><span class="code">p ~ ul</span></td>
+                <td>Selects every <span class="code">&lt;ul&gt;</span> element that is preceded by a <span class="code">&lt;p&gt;</span> element</td>
+            </tr>
+            <tr>
                 <td><span class="code">:first-child</span></td>
                 <td><span class="code">p:first-child</span></td>
                 <td>Selects every <span class="code">&lt;p&gt;</span> element that is the first child of its parent</td>
